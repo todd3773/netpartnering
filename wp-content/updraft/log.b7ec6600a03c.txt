@@ -1,0 +1,426 @@
+0000.002 (0) Opened log file at time: Wed, 28 Oct 2015 19:23:44 +0000 on http://hp-partner-solutions.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.15 WP: 4.3.1 PHP: 5.4.42 (Linux p3nlwpweb264.prod.phx3.secureserver.net 2.6.32-531.1.2.lve1.2.54.el6.nfsfixes.x86_64 #1 SMP Wed Apr 2 14:06:52 MST 2014 x86_64) MySQL: 5.5.43 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 12.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 13656074.5 Mb
+0000.014 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.020 (0) Requesting semaphore lock (fd)
+0000.023 (0) Set semaphore last lock (fd) time to 2015-10-28 19:23:44
+0000.025 (0) Semaphore lock (fd) complete
+0000.033 (0) Backup run: resumption=0, nonce=b7ec6600a03c, begun at=1446060224 (0s ago), job type=backup
+0000.037 (0) Scheduling a resumption (1) after 300 seconds (1446060524) in case this run gets aborted
+0000.049 (0) Checking if we have a zip executable available
+0000.051 (0) Testing: /usr/bin/zip
+0000.070 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.073 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.075 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.077 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.078 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.090 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.093 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.107 (0) Working binary zip found: /usr/bin/zip
+0000.111 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.113 (0) Creation of backups of directories: beginning
+0000.121 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0001.063 (0) Total entities for the zip file: 403 directories, 2662 files (0 skipped as non-modified), 36.3 Mb
+0001.154 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0001.213 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0001.263 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0001.318 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0001.382 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0001.385 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 Mb, 2662 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0001.776 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: size is now: 3.70 Mb
+0001.878 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 600 files added (on-disk size: 3763.1 Kb)
+0001.946 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 700 files added (on-disk size: 3763.1 Kb)
+0002.038 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 800 files added (on-disk size: 3763.1 Kb)
+0002.100 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 900 files added (on-disk size: 3763.1 Kb)
+0002.176 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 1000 files added (on-disk size: 3763.1 Kb)
+0002.180 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 Mb, 2662 files batched, 501 (1002) added so far); re-opening (prior size: 3763.1 Kb)
+0002.585 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: size is now: 4.90 Mb
+0002.690 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 1100 files added (on-disk size: 5057.3 Kb)
+0002.745 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 1200 files added (on-disk size: 5057.3 Kb)
+0002.809 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 1300 files added (on-disk size: 5057.3 Kb)
+0002.884 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 1400 files added (on-disk size: 5057.3 Kb)
+0002.956 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 1500 files added (on-disk size: 5057.3 Kb)
+0002.960 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15 Mb, 2662 files batched, 501 (1503) added so far); re-opening (prior size: 5057.3 Kb)
+0004.506 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: size is now: 9.70 Mb
+0004.595 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 1600 files added (on-disk size: 9917.2 Kb)
+0004.678 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 1700 files added (on-disk size: 9917.2 Kb)
+0004.736 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 1800 files added (on-disk size: 9917.2 Kb)
+0004.805 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 1900 files added (on-disk size: 9917.2 Kb)
+0004.864 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 2000 files added (on-disk size: 9917.2 Kb)
+0004.868 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 Mb, 2662 files batched, 501 (2004) added so far); re-opening (prior size: 9917.2 Kb)
+0005.593 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 2100 files added (on-disk size: 10633.9 Kb)
+0005.665 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 2200 files added (on-disk size: 10633.9 Kb)
+0005.737 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 2300 files added (on-disk size: 10633.9 Kb)
+0005.794 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 2400 files added (on-disk size: 10633.9 Kb)
+0005.851 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 2500 files added (on-disk size: 10633.9 Kb)
+0005.855 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 Mb, 2662 files batched, 501 (2505) added so far); re-opening (prior size: 10633.9 Kb)
+0006.614 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: size is now: 13.00 Mb
+0006.676 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip.tmp: 2600 files added (on-disk size: 13287.2 Kb)
+0008.227 (0) Created plugins zip (0) - 14190.4 Kb in 8.1 s (1751.6 Kb/s) (SHA1 checksum: ac4530614734eac344d0328452c0e774aae9f0ef)
+0008.236 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0008.488 (0) Total entities for the zip file: 70 directories, 579 files (0 skipped as non-modified), 22.6 Mb
+0008.588 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0008.643 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0008.708 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0008.770 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0008.829 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0008.832 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (21.4 Mb, 579 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0010.026 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip.tmp: size is now: 6.60 Mb
+0010.723 (0) Created themes zip (0) - 7788.7 Kb in 2.5 s (3141.6 Kb/s) (SHA1 checksum: e64893348633a8e0b45947e713de1bb8f9456e37)
+0010.733 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0010.736 (0) Looking for candidates to back up in: /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content/uploads
+0010.739 (0) finding files: 2015: adding to list (1)
+0010.742 (0) finding files: et_temp: adding to list (2)
+0010.743 (0) finding files: wpcf7_uploads: adding to list (3)
+0010.745 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0010.866 (0) Total entities for the zip file: 5 directories, 252 files (0 skipped as non-modified), 18.3 Mb
+0010.939 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0011.044 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0012.086 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip.tmp: size is now: 18.00 Mb
+0012.625 (0) Created uploads zip (0) - 18447.7 Kb in 1.9 s (9857.5 Kb/s) (SHA1 checksum: 562b018ddf858c900af68986566feced612cb70b)
+0012.633 (0) Beginning backup of other directories found in the content directory (index: 0)
+0012.636 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql
+0012.638 (0) Looking for candidates to back up in: /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content
+0012.641 (0) finding files: uploads: skipping: this is the uploads directory
+0012.644 (0) finding files: updraft: skipping: this is the updraft directory
+0012.646 (0) finding files: object-cache.php: adding to list (1)
+0012.649 (0) finding files: managewp: adding to list (2)
+0012.654 (0) finding files: index.php: adding to list (3)
+0012.657 (0) finding files: plugins: skipping: this is the plugins directory
+0012.659 (0) finding files: mu-plugins: adding to list (4)
+0012.661 (0) finding files: upgrade: skipping: excluded by options
+0012.663 (0) finding files: themes: skipping: this is the themes directory
+0012.666 (0) finding files: languages: adding to list (5)
+0012.716 (0) Total entities for the zip file: 10 directories, 127 files (0 skipped as non-modified), 35.4 Mb
+0012.721 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (34.8 Mb, 127 files batched, 4 (4) added so far); re-opening (prior size: 0 Kb)
+0013.443 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip.tmp: size is now: 34.80 Mb
+0013.450 (0) A useful amount of data was added after this amount of zip processing: 0.9 s (normalised: 0.6 s, rate: 39839.6 Kb/s)
+0013.455 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.89414691925049, normalised_time=0.64257742920231, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=209715200)
+0013.525 (0) Zip: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip.tmp: 100 files added (on-disk size: 35608.6 Kb)
+0016.072 (0) Created others zip (0) - 35917.5 Kb in 3.4 s (10564.4 Kb/s) (SHA1 checksum: 91b42692b8259d3d8eb890792a82f15352457b2f)
+0016.086 (0) Saving backup status to database (elements: 8)
+0016.091 (0) Beginning creation of database dump (WordPress DB)
+0016.101 (0) Testing: /usr/bin/mysqldump
+0016.140 (0) Binary mysqldump: error (code: 2)
+0016.155 (0) Table wp_kn2ztcjm6p_options: Total expected rows (approximate): 625
+0016.231 (0) Table wp_kn2ztcjm6p_options: Total rows added: 334 in 0.07 seconds
+0016.236 (0) Table wp_kn2ztcjm6p_options: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_options.table.gz - 110.9 Kb)
+0016.245 (0) Table wp_kn2ztcjm6p_users: Total expected rows (approximate): 5
+0016.249 (0) Table wp_kn2ztcjm6p_users: Total rows added: 5 in 0.00 seconds
+0016.252 (0) Table wp_kn2ztcjm6p_users: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_users.table.gz - 0.9 Kb)
+0016.263 (0) Table wp_kn2ztcjm6p_usermeta: Total expected rows (approximate): 93
+0016.271 (0) Table wp_kn2ztcjm6p_usermeta: Total rows added: 93 in 0.01 seconds
+0016.274 (0) Table wp_kn2ztcjm6p_usermeta: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_usermeta.table.gz - 3.1 Kb)
+0016.289 (0) Table wp_kn2ztcjm6p_commentmeta: Total expected rows (approximate): 0
+0016.295 (0) Table wp_kn2ztcjm6p_commentmeta: Total rows added: 0 in 0.00 seconds
+0016.310 (0) Table wp_kn2ztcjm6p_commentmeta: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_commentmeta.table.gz - 0.4 Kb)
+0016.324 (0) Table wp_kn2ztcjm6p_comments: Total expected rows (approximate): 1
+0016.330 (0) Table wp_kn2ztcjm6p_comments: Total rows added: 1 in 0.00 seconds
+0016.335 (0) Table wp_kn2ztcjm6p_comments: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_comments.table.gz - 0.7 Kb)
+0016.350 (0) Table wp_kn2ztcjm6p_links: Total expected rows (approximate): 0
+0016.356 (0) Table wp_kn2ztcjm6p_links: Total rows added: 0 in 0.00 seconds
+0016.360 (0) Table wp_kn2ztcjm6p_links: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_links.table.gz - 0.5 Kb)
+0016.373 (0) Table wp_kn2ztcjm6p_postmeta: Total expected rows (approximate): 514
+0016.393 (0) Table wp_kn2ztcjm6p_postmeta: Total rows added: 514 in 0.02 seconds
+0016.397 (0) Table wp_kn2ztcjm6p_postmeta: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_postmeta.table.gz - 11.6 Kb)
+0016.410 (0) Table wp_kn2ztcjm6p_posts: Total expected rows (approximate): 826
+0016.822 (0) Table wp_kn2ztcjm6p_posts: Total rows added: 826 in 0.41 seconds
+0016.838 (0) Table wp_kn2ztcjm6p_posts: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_posts.table.gz - 289.8 Kb)
+0016.857 (0) Table wp_kn2ztcjm6p_term_relationships: Total expected rows (approximate): 108
+0016.871 (0) Table wp_kn2ztcjm6p_term_relationships: Total rows added: 108 in 0.01 seconds
+0016.876 (0) Table wp_kn2ztcjm6p_term_relationships: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_term_relationships.table.gz - 0.7 Kb)
+0016.926 (0) Table wp_kn2ztcjm6p_term_taxonomy: Total expected rows (approximate): 13
+0016.931 (0) Table wp_kn2ztcjm6p_term_taxonomy: Total rows added: 13 in 0.00 seconds
+0016.935 (0) Table wp_kn2ztcjm6p_term_taxonomy: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_term_taxonomy.table.gz - 0.6 Kb)
+0016.957 (0) Table wp_kn2ztcjm6p_terms: Total expected rows (approximate): 13
+0016.970 (0) Table wp_kn2ztcjm6p_terms: Total rows added: 13 in 0.01 seconds
+0016.976 (0) Table wp_kn2ztcjm6p_terms: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_terms.table.gz - 0.6 Kb)
+0016.988 (0) Table wp_kn2ztcjm6p_ap_appointments: Total expected rows (approximate): 0
+0016.993 (0) Table wp_kn2ztcjm6p_ap_appointments: Total rows added: 0 in 0.00 seconds
+0016.996 (0) Table wp_kn2ztcjm6p_ap_appointments: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_ap_appointments.table.gz - 0.4 Kb)
+0017.012 (0) Table wp_kn2ztcjm6p_ap_events: Total expected rows (approximate): 0
+0017.020 (0) Table wp_kn2ztcjm6p_ap_events: Total rows added: 0 in 0.01 seconds
+0017.030 (0) Table wp_kn2ztcjm6p_ap_events: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_ap_events.table.gz - 0.3 Kb)
+0017.046 (0) Table wp_kn2ztcjm6p_ap_service_category: Total expected rows (approximate): 1
+0017.052 (0) Table wp_kn2ztcjm6p_ap_service_category: Total rows added: 1 in 0.00 seconds
+0017.056 (0) Table wp_kn2ztcjm6p_ap_service_category: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_ap_service_category.table.gz - 0.3 Kb)
+0017.068 (0) Table wp_kn2ztcjm6p_ap_services: Total expected rows (approximate): 1
+0017.073 (0) Table wp_kn2ztcjm6p_ap_services: Total rows added: 1 in 0.00 seconds
+0017.076 (0) Table wp_kn2ztcjm6p_ap_services: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_ap_services.table.gz - 0.5 Kb)
+0017.090 (0) Table wp_kn2ztcjm6p_cf7dbplugin_st: Total expected rows (approximate): 4
+0017.094 (0) Table wp_kn2ztcjm6p_cf7dbplugin_st: Total rows added: 4 in 0.00 seconds
+0017.097 (0) Table wp_kn2ztcjm6p_cf7dbplugin_st: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cf7dbplugin_st.table.gz - 0.3 Kb)
+0017.109 (0) Table wp_kn2ztcjm6p_cf7dbplugin_submits: Total expected rows (approximate): 103
+0017.132 (0) Table wp_kn2ztcjm6p_cf7dbplugin_submits: Total rows added: 103 in 0.02 seconds
+0017.139 (0) Table wp_kn2ztcjm6p_cf7dbplugin_submits: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cf7dbplugin_submits.table.gz - 156.4 Kb)
+0017.151 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars: Total expected rows (approximate): 1
+0017.161 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars: Total rows added: 1 in 0.01 seconds
+0017.183 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cpabc_appointment_calendars.table.gz - 1.2 Kb)
+0017.196 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars_data: Total expected rows (approximate): 0
+0017.201 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars_data: Total rows added: 0 in 0.00 seconds
+0017.204 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars_data: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cpabc_appointment_calendars_data.table.gz - 0.4 Kb)
+0017.218 (0) Table wp_kn2ztcjm6p_cpabc_appointments: Total expected rows (approximate): 0
+0017.223 (0) Table wp_kn2ztcjm6p_cpabc_appointments: Total rows added: 0 in 0.00 seconds
+0017.227 (0) Table wp_kn2ztcjm6p_cpabc_appointments: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cpabc_appointments.table.gz - 0.4 Kb)
+0017.251 (0) Table wp_kn2ztcjm6p_cpabc_appointments_discount_codes: Total expected rows (approximate): 0
+0017.255 (0) Table wp_kn2ztcjm6p_cpabc_appointments_discount_codes: Total rows added: 0 in 0.00 seconds
+0017.275 (0) Table wp_kn2ztcjm6p_cpabc_appointments_discount_codes: finishing file (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cpabc_appointments_discount_codes.table.gz - 0.4 Kb)
+0017.302 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_options.table.gz (1/21): adding to final database dump
+0017.344 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_users.table.gz (2/21): adding to final database dump
+0017.350 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_usermeta.table.gz (3/21): adding to final database dump
+0017.355 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_commentmeta.table.gz (4/21): adding to final database dump
+0017.359 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_comments.table.gz (5/21): adding to final database dump
+0017.362 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_links.table.gz (6/21): adding to final database dump
+0017.366 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_postmeta.table.gz (7/21): adding to final database dump
+0017.379 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_posts.table.gz (8/21): adding to final database dump
+0017.565 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_term_relationships.table.gz (9/21): adding to final database dump
+0017.570 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_term_taxonomy.table.gz (10/21): adding to final database dump
+0017.578 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_terms.table.gz (11/21): adding to final database dump
+0017.583 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_ap_appointments.table.gz (12/21): adding to final database dump
+0017.587 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_ap_events.table.gz (13/21): adding to final database dump
+0017.590 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_ap_service_category.table.gz (14/21): adding to final database dump
+0017.593 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_ap_services.table.gz (15/21): adding to final database dump
+0017.597 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cf7dbplugin_st.table.gz (16/21): adding to final database dump
+0017.600 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cf7dbplugin_submits.table.gz (17/21): adding to final database dump
+0017.619 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cpabc_appointment_calendars.table.gz (18/21): adding to final database dump
+0017.627 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cpabc_appointment_calendars_data.table.gz (19/21): adding to final database dump
+0017.630 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cpabc_appointments.table.gz (20/21): adding to final database dump
+0017.635 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db-table-wp_kn2ztcjm6p_cpabc_appointments_discount_codes.table.gz (21/21): adding to final database dump
+0017.650 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz: finished writing out complete database file (560 Kb)
+0017.702 (0) Total database tables backed up: 21 (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz, size: 589982, checksum (SHA1): 5f171a93c1baa1beb366a6f975348a70452c85fb)
+0017.711 (0) Saving backup history
+0017.728 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0017.733 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0017.736 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0017.739 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0017.742 (0) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0017.750 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0017.760 (0) Cloud backup selection (1/1): dropbox (last)
+0017.762 (0) Beginning dispatch of backup to remote (dropbox)
+0017.764 (0) Dropbox: begin cloud upload
+0017.773 (0) Dropbox: access gained
+0018.139 (0) Dropbox quota usage: normal=0.7 Mb, shared=0 Mb, total=2048 Mb, available=2047.3 Mb
+0018.141 (0) Dropbox: Attempt to upload: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip to: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip
+0019.696 (0) Dropbox chunked upload: 7.2 % uploaded (7wRLGxx3MwMu5NJlBo387g, 1048576)
+0021.684 (0) Dropbox chunked upload: 14.4 % uploaded (7wRLGxx3MwMu5NJlBo387g, 2097152)
+0023.563 (0) Dropbox chunked upload: 21.6 % uploaded (7wRLGxx3MwMu5NJlBo387g, 3145728)
+0026.367 (0) Dropbox chunked upload: 28.9 % uploaded (7wRLGxx3MwMu5NJlBo387g, 4194304)
+0027.908 (0) Dropbox chunked upload: 36.1 % uploaded (7wRLGxx3MwMu5NJlBo387g, 5242880)
+0029.672 (0) Dropbox chunked upload: 43.3 % uploaded (7wRLGxx3MwMu5NJlBo387g, 6291456)
+0031.440 (0) Dropbox chunked upload: 50.5 % uploaded (7wRLGxx3MwMu5NJlBo387g, 7340032)
+0034.158 (0) Dropbox chunked upload: 57.7 % uploaded (7wRLGxx3MwMu5NJlBo387g, 8388608)
+0035.638 (0) Dropbox chunked upload: 64.9 % uploaded (7wRLGxx3MwMu5NJlBo387g, 9437184)
+0037.322 (0) Dropbox chunked upload: 72.2 % uploaded (7wRLGxx3MwMu5NJlBo387g, 10485760)
+0039.614 (0) Dropbox chunked upload: 79.4 % uploaded (7wRLGxx3MwMu5NJlBo387g, 11534336)
+0042.114 (0) Dropbox chunked upload: 86.6 % uploaded (7wRLGxx3MwMu5NJlBo387g, 12582912)
+0044.267 (0) Dropbox chunked upload: 93.8 % uploaded (7wRLGxx3MwMu5NJlBo387g, 13631488)
+0046.021 (0) Dropbox chunked upload: 100 % uploaded (7wRLGxx3MwMu5NJlBo387g, 14530922)
+0047.924 (0) Recording as successfully uploaded: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip (9caf5de3c2168fd375a0568b18d091c5)
+0047.960 (0) Deleting local file: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip: OK
+0047.962 (0) Dropbox: File upload success (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip): 14190 Kb in 29s (475 Kb/s)
+0048.209 (0) Dropbox quota usage: normal=14.5 Mb, shared=0 Mb, total=2048 Mb, available=2033.5 Mb
+0048.212 (0) Dropbox: Attempt to upload: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip to: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip
+0050.321 (0) Dropbox chunked upload: 13.1 % uploaded (5s5MNdpzYhyjEnB3KmT1ow, 1048576)
+0055.331 (0) Dropbox chunked upload: 26.3 % uploaded (5s5MNdpzYhyjEnB3KmT1ow, 2097152)
+0057.106 (0) Dropbox chunked upload: 39.4 % uploaded (5s5MNdpzYhyjEnB3KmT1ow, 3145728)
+0059.887 (0) Dropbox chunked upload: 52.6 % uploaded (5s5MNdpzYhyjEnB3KmT1ow, 4194304)
+0061.260 (0) Dropbox chunked upload: 65.7 % uploaded (5s5MNdpzYhyjEnB3KmT1ow, 5242880)
+0062.990 (0) Dropbox chunked upload: 78.9 % uploaded (5s5MNdpzYhyjEnB3KmT1ow, 6291456)
+0064.949 (0) Dropbox chunked upload: 92 % uploaded (5s5MNdpzYhyjEnB3KmT1ow, 7340032)
+0066.820 (0) Dropbox chunked upload: 100 % uploaded (5s5MNdpzYhyjEnB3KmT1ow, 7975607)
+0069.258 (0) Recording as successfully uploaded: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip (a36a0d26e19ea37b907a8d65ff1f7e26)
+0069.269 (0) Deleting local file: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip: OK
+0069.271 (0) Dropbox: File upload success (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip): 7788 Kb in 21s (369 Kb/s)
+0069.455 (0) Dropbox quota usage: normal=22.1 Mb, shared=0 Mb, total=2048 Mb, available=2025.9 Mb
+0069.458 (0) Dropbox: Attempt to upload: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip to: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip
+0071.315 (0) Dropbox chunked upload: 5.6 % uploaded (EMyP4hfJn01derMfo_y0dQ, 1048576)
+0073.062 (0) Dropbox chunked upload: 11.1 % uploaded (EMyP4hfJn01derMfo_y0dQ, 2097152)
+0074.948 (0) Dropbox chunked upload: 16.7 % uploaded (EMyP4hfJn01derMfo_y0dQ, 3145728)
+0077.586 (0) Dropbox chunked upload: 22.2 % uploaded (EMyP4hfJn01derMfo_y0dQ, 4194304)
+0079.119 (0) Dropbox chunked upload: 27.8 % uploaded (EMyP4hfJn01derMfo_y0dQ, 5242880)
+0080.854 (0) Dropbox chunked upload: 33.3 % uploaded (EMyP4hfJn01derMfo_y0dQ, 6291456)
+0083.133 (0) Dropbox chunked upload: 38.9 % uploaded (EMyP4hfJn01derMfo_y0dQ, 7340032)
+0086.806 (0) Dropbox chunked upload: 44.4 % uploaded (EMyP4hfJn01derMfo_y0dQ, 8388608)
+0088.243 (0) Dropbox chunked upload: 50 % uploaded (EMyP4hfJn01derMfo_y0dQ, 9437184)
+0090.128 (0) Dropbox chunked upload: 55.5 % uploaded (EMyP4hfJn01derMfo_y0dQ, 10485760)
+0091.972 (0) Dropbox chunked upload: 61.1 % uploaded (EMyP4hfJn01derMfo_y0dQ, 11534336)
+0094.433 (0) Dropbox chunked upload: 66.6 % uploaded (EMyP4hfJn01derMfo_y0dQ, 12582912)
+0098.916 (0) Dropbox chunked upload: 72.2 % uploaded (EMyP4hfJn01derMfo_y0dQ, 13631488)
+0102.232 (0) Dropbox chunked upload: 77.7 % uploaded (EMyP4hfJn01derMfo_y0dQ, 14680064)
+0104.380 (0) Dropbox chunked upload: 83.3 % uploaded (EMyP4hfJn01derMfo_y0dQ, 15728640)
+0106.990 (0) Dropbox chunked upload: 88.8 % uploaded (EMyP4hfJn01derMfo_y0dQ, 16777216)
+0108.489 (0) Dropbox chunked upload: 94.4 % uploaded (EMyP4hfJn01derMfo_y0dQ, 17825792)
+0110.139 (0) Dropbox chunked upload: 99.9 % uploaded (EMyP4hfJn01derMfo_y0dQ, 18874368)
+0111.351 (0) Dropbox chunked upload: 100 % uploaded (EMyP4hfJn01derMfo_y0dQ, 18890453)
+0113.072 (0) Recording as successfully uploaded: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip (a95f1f5e88aba52695658c3d09e03ece)
+0113.084 (0) Deleting local file: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip: OK
+0113.086 (0) Dropbox: File upload success (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip): 18447 Kb in 43s (422 Kb/s)
+0113.288 (0) Dropbox quota usage: normal=40.1 Mb, shared=0 Mb, total=2048 Mb, available=2007.9 Mb
+0113.292 (0) Dropbox: Attempt to upload: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip to: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip
+0114.920 (0) Dropbox chunked upload: 2.9 % uploaded (que0vMyQqIE0x9UQO_lvGA, 1048576)
+0122.855 (0) Dropbox chunked upload: 5.7 % uploaded (que0vMyQqIE0x9UQO_lvGA, 2097152)
+0125.021 (0) Dropbox chunked upload: 8.6 % uploaded (que0vMyQqIE0x9UQO_lvGA, 3145728)
+0304.080 (1) Opened log file at time: Wed, 28 Oct 2015 19:28:48 +0000 on http://hp-partner-solutions.com
+0304.080 (1) Opened log file at time: Wed, 28 Oct 2015 19:28:48 +0000 on http://hp-partner-solutions.com
+0304.082 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.15 WP: 4.3.1 PHP: 5.4.42 (Linux p3nlwpweb126.shr.prod.phx3.secureserver.net 2.6.32-531.1.2.lve1.2.54.el6.nfsfixes.x86_64 #1 SMP Wed Apr 2 14:06:52 MST 2014 x86_64) MySQL: 5.5.43 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.5M | 30.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0304.083 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.15 WP: 4.3.1 PHP: 5.4.42 (Linux p3nlwpweb126.shr.prod.phx3.secureserver.net 2.6.32-531.1.2.lve1.2.54.el6.nfsfixes.x86_64 #1 SMP Wed Apr 2 14:06:52 MST 2014 x86_64) MySQL: 5.5.43 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.5M | 30.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0304.085 (1) Free space on disk containing Updraft's temporary directory: 13639109.6 Mb
+0304.086 (1) Free space on disk containing Updraft's temporary directory: 13639109.6 Mb
+0304.091 (1) Backup run: resumption=1, nonce=b7ec6600a03c, begun at=1446060224 (304s ago), job type=backup, previous check-in=125s
+0304.091 (1) Backup run: resumption=1, nonce=b7ec6600a03c, begun at=1446060224 (304s ago), job type=backup, previous check-in=125s
+0304.095 (1) Scheduling a resumption (2) after 300 seconds (1446060828) in case this run gets aborted
+0304.095 (1) Scheduling a resumption (2) after 300 seconds (1446060828) in case this run gets aborted
+0304.112 (1) Checking if we have a zip executable available
+0304.114 (1) Checking if we have a zip executable available
+0304.115 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0304.116 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0304.117 (1) Creation of backups of directories: already finished
+0304.118 (1) Creation of backups of directories: already finished
+0304.121 (1) Saving backup status to database (elements: 8)
+0304.121 (1) Saving backup status to database (elements: 8)
+0304.126 (1) Database dump (WordPress DB): Creation was completed already
+0304.127 (1) Database dump (WordPress DB): Creation was completed already
+0304.128 (1) Saving backup history
+0304.129 (1) Saving backup history
+0304.137 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip: plugins: This file has already been successfully uploaded
+0304.138 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip: plugins: This file has already been successfully uploaded
+0304.140 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip: themes: This file has already been successfully uploaded
+0304.140 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip: themes: This file has already been successfully uploaded
+0304.142 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip: uploads: This file has already been successfully uploaded
+0304.143 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip: uploads: This file has already been successfully uploaded
+0304.145 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0304.145 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0304.147 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0304.147 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0304.152 (1) Requesting upload of the files that have not yet been successfully uploaded (2)
+0304.153 (1) Requesting upload of the files that have not yet been successfully uploaded (2)
+0304.155 (1) Cloud backup selection (1/1): dropbox (last)
+0304.155 (1) Cloud backup selection (1/1): dropbox (last)
+0304.162 (1) Beginning dispatch of backup to remote (dropbox)
+0304.162 (1) Beginning dispatch of backup to remote (dropbox)
+0304.164 (1) Dropbox: begin cloud upload
+0304.164 (1) Dropbox: begin cloud upload
+0304.182 (1) Dropbox: access gained
+0304.183 (1) Dropbox: access gained
+0304.502 (1) Dropbox quota usage: normal=40.1 Mb, shared=0 Mb, total=2048 Mb, available=2007.9 Mb
+0304.505 (1) This is a resumption: 3145728 bytes had already been uploaded
+0304.506 (1) Dropbox: Attempt to upload: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip to: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip
+0304.528 (1) Dropbox quota usage: normal=40.1 Mb, shared=0 Mb, total=2048 Mb, available=2007.9 Mb
+0304.574 (1) This is a resumption: 3145728 bytes had already been uploaded
+0304.622 (1) Dropbox: Attempt to upload: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip to: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip
+0307.056 (1) Dropbox chunked upload: 11.4 % uploaded (que0vMyQqIE0x9UQO_lvGA, 4194304)
+0307.062 (1) Dropbox chunked upload: 11.4 % uploaded (que0vMyQqIE0x9UQO_lvGA, 4194304)
+0308.600 (1) Dropbox chunked upload: 14.3 % uploaded (que0vMyQqIE0x9UQO_lvGA, 5242880)
+0308.602 (1) Dropbox chunked upload: 14.3 % uploaded (que0vMyQqIE0x9UQO_lvGA, 5242880)
+0310.494 (1) Dropbox chunked upload: 17.1 % uploaded (que0vMyQqIE0x9UQO_lvGA, 6291456)
+0310.657 (1) Dropbox chunked upload: 17.1 % uploaded (que0vMyQqIE0x9UQO_lvGA, 6291456)
+0312.633 (1) Dropbox chunked upload: 20 % uploaded (que0vMyQqIE0x9UQO_lvGA, 7340032)
+0313.034 (1) Dropbox chunked upload: 20 % uploaded (que0vMyQqIE0x9UQO_lvGA, 7340032)
+0315.283 (1) Dropbox chunked upload: 22.8 % uploaded (que0vMyQqIE0x9UQO_lvGA, 8388608)
+0315.320 (1) Dropbox chunked upload: 22.8 % uploaded (que0vMyQqIE0x9UQO_lvGA, 8388608)
+0316.816 (1) Dropbox chunked upload: 25.7 % uploaded (que0vMyQqIE0x9UQO_lvGA, 9437184)
+0316.976 (1) Dropbox chunked upload: 25.7 % uploaded (que0vMyQqIE0x9UQO_lvGA, 9437184)
+0318.841 (1) Dropbox chunked upload: 28.5 % uploaded (que0vMyQqIE0x9UQO_lvGA, 10485760)
+0319.210 (1) Dropbox chunked upload: 28.5 % uploaded (que0vMyQqIE0x9UQO_lvGA, 10485760)
+0321.238 (1) Dropbox chunked upload: 31.4 % uploaded (que0vMyQqIE0x9UQO_lvGA, 11534336)
+0321.416 (1) Dropbox chunked upload: 31.4 % uploaded (que0vMyQqIE0x9UQO_lvGA, 11534336)
+0323.460 (1) Dropbox chunked upload: 34.2 % uploaded (que0vMyQqIE0x9UQO_lvGA, 12582912)
+0323.587 (1) Dropbox chunked upload: 34.2 % uploaded (que0vMyQqIE0x9UQO_lvGA, 12582912)
+0324.823 (1) Dropbox chunked upload: 37.1 % uploaded (que0vMyQqIE0x9UQO_lvGA, 13631488)
+0325.206 (1) Dropbox chunked upload: 37.1 % uploaded (que0vMyQqIE0x9UQO_lvGA, 13631488)
+0326.989 (1) Dropbox chunked upload: 39.9 % uploaded (que0vMyQqIE0x9UQO_lvGA, 14680064)
+0326.995 (1) Dropbox chunked upload: 39.9 % uploaded (que0vMyQqIE0x9UQO_lvGA, 14680064)
+0328.980 (1) Dropbox chunked upload: 42.8 % uploaded (que0vMyQqIE0x9UQO_lvGA, 15728640)
+0329.060 (1) Dropbox chunked upload: 42.8 % uploaded (que0vMyQqIE0x9UQO_lvGA, 15728640)
+0331.301 (1) Dropbox chunked upload: 45.6 % uploaded (que0vMyQqIE0x9UQO_lvGA, 16777216)
+0331.368 (1) Dropbox chunked upload: 45.6 % uploaded (que0vMyQqIE0x9UQO_lvGA, 16777216)
+0333.080 (1) Dropbox chunked upload: 48.5 % uploaded (que0vMyQqIE0x9UQO_lvGA, 17825792)
+0333.694 (1) Dropbox chunked upload: 48.5 % uploaded (que0vMyQqIE0x9UQO_lvGA, 17825792)
+0335.086 (1) Dropbox chunked upload: 51.3 % uploaded (que0vMyQqIE0x9UQO_lvGA, 18874368)
+0335.425 (1) Dropbox chunked upload exception (Dropbox_BadRequestException): Submitted input out of alignment: got [17825792] expected [18874368] (line: 169, file: /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0335.433 (1) Dropbox not yet aligned: tried=17825792, wanted=18874368; will attempt recovery
+0336.890 (1) Dropbox chunked upload: 54.2 % uploaded (que0vMyQqIE0x9UQO_lvGA, 19922944)
+0337.299 (1) Dropbox chunked upload: 54.2 % uploaded (que0vMyQqIE0x9UQO_lvGA, 19922944)
+0340.000 (1) Dropbox chunked upload: 57 % uploaded (que0vMyQqIE0x9UQO_lvGA, 20971520)
+0340.162 (1) Dropbox chunked upload: 57 % uploaded (que0vMyQqIE0x9UQO_lvGA, 20971520)
+0341.387 (1) Dropbox chunked upload: 59.9 % uploaded (que0vMyQqIE0x9UQO_lvGA, 22020096)
+0341.805 (1) Dropbox chunked upload: 59.9 % uploaded (que0vMyQqIE0x9UQO_lvGA, 22020096)
+0343.246 (1) Dropbox chunked upload: 62.7 % uploaded (que0vMyQqIE0x9UQO_lvGA, 23068672)
+0343.393 (1) Dropbox chunked upload: 62.7 % uploaded (que0vMyQqIE0x9UQO_lvGA, 23068672)
+0345.118 (1) Dropbox chunked upload: 65.6 % uploaded (que0vMyQqIE0x9UQO_lvGA, 24117248)
+0347.359 (1) Dropbox chunked upload: 68.4 % uploaded (que0vMyQqIE0x9UQO_lvGA, 25165824)
+0348.709 (1) Dropbox chunked upload: 71.3 % uploaded (que0vMyQqIE0x9UQO_lvGA, 26214400)
+0350.430 (1) Dropbox chunked upload: 74.1 % uploaded (que0vMyQqIE0x9UQO_lvGA, 27262976)
+0350.731 (1) Dropbox chunked upload exception (Dropbox_BadRequestException): Submitted input out of alignment: got [23068672] expected [27262976] (line: 169, file: /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0350.739 (1) Dropbox not yet aligned: tried=23068672, wanted=27262976; will attempt recovery
+0352.213 (1) Dropbox chunked upload: 77 % uploaded (que0vMyQqIE0x9UQO_lvGA, 28311552)
+0352.583 (1) Dropbox error: Submitted input out of alignment: got [27262976] expected [28311552] (line: 169, file: /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0352.586 (1) An error condition has occurred for the first time during this job
+0352.806 (1) Dropbox quota usage: normal=40.1 Mb, shared=0 Mb, total=2048 Mb, available=2007.9 Mb
+0352.809 (1) Dropbox: Attempt to upload: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz to: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz
+0354.389 (1) Dropbox chunked upload: 100 % uploaded (jECJ1PVewaLolAyRy9AdMg, 589982)
+0355.670 (1) Recording as successfully uploaded: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz (a73300f1493b10de48be5d42477d27be)
+0355.681 (1) Deleting local file: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz: OK
+0355.684 (1) Dropbox: File upload success (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz): 576 Kb in 2s (200 Kb/s)
+0355.690 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0355.694 (1) Number of backup sets in history: 2
+0355.697 (1) Examining backup set with datestamp: 1446060224 (Oct 28 2015 19:23:44)
+0355.699 (1) 1446060224: this backup set remains non-empty (1/1); will retain in history
+0355.701 (1) Examining backup set with datestamp: 1446059161 (Oct 28 2015 19:06:01)
+0355.703 (1) 1446059161: this backup set remains non-empty (1/1); will retain in history
+0355.706 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0355.714 (1) Resume backup (b7ec6600a03c, 1): finish run
+0355.718 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0355.725 (1) No email will/can be sent - the user has not configured an email address.
+0355.728 (1) The backup has not finished; a resumption is scheduled
+0355.787 (1) Dropbox chunked upload: 79.8 % uploaded (que0vMyQqIE0x9UQO_lvGA, 29360128)
+0357.756 (1) Dropbox chunked upload: 82.7 % uploaded (que0vMyQqIE0x9UQO_lvGA, 30408704)
+0360.346 (1) Dropbox chunked upload: 85.5 % uploaded (que0vMyQqIE0x9UQO_lvGA, 31457280)
+0362.108 (1) Dropbox chunked upload: 88.4 % uploaded (que0vMyQqIE0x9UQO_lvGA, 32505856)
+0364.978 (1) Dropbox chunked upload: 91.2 % uploaded (que0vMyQqIE0x9UQO_lvGA, 33554432)
+0366.501 (1) Dropbox chunked upload: 94.1 % uploaded (que0vMyQqIE0x9UQO_lvGA, 34603008)
+0368.114 (1) Dropbox chunked upload: 96.9 % uploaded (que0vMyQqIE0x9UQO_lvGA, 35651584)
+0369.818 (1) Dropbox chunked upload: 99.8 % uploaded (que0vMyQqIE0x9UQO_lvGA, 36700160)
+0371.141 (1) Dropbox chunked upload: 100 % uploaded (que0vMyQqIE0x9UQO_lvGA, 36779543)
+0373.131 (1) Recording as successfully uploaded: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip (5395aef75e145388db1c741a50d410bb)
+0373.160 (1) Deleting local file: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip: OK
+0373.162 (1) Dropbox: File upload success (backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip): 35917 Kb in 68s (523 Kb/s)
+0373.352 (1) Dropbox quota usage: normal=75.8 Mb, shared=0 Mb, total=2048 Mb, available=1972.2 Mb
+0373.355 (1) PHP event: code E_WARNING: filesize(): stat failed for /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content/updraft/backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz (line 136, wp-content/plugins/updraftplus/methods/dropbox.php)
+0373.356 (1) Dropbox: Attempt to upload: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz to: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz
+0373.358 (1) Dropbox chunked upload exception (Exception): Local file /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content/updraft/backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz does not exist (line: 196, file: /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content/plugins/updraftplus/includes/Dropbox/API.php)
+0373.359 (1) Dropbox error: Local file /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content/updraft/backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz does not exist
+0373.361 (1) An error condition has occurred for the first time during this job
+0373.365 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0373.368 (1) Number of backup sets in history: 2
+0373.370 (1) Examining backup set with datestamp: 1446060224 (Oct 28 2015 19:23:44)
+0373.372 (1) 1446060224: this backup set remains non-empty (1/1); will retain in history
+0373.373 (1) Examining backup set with datestamp: 1446059161 (Oct 28 2015 19:06:01)
+0373.374 (1) 1446059161: this backup set remains non-empty (1/1); will retain in history
+0373.376 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0373.380 (1) Resume backup (b7ec6600a03c, 1): finish run
+0373.383 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0373.387 (1) No email will/can be sent - the user has not configured an email address.
+0373.389 (1) The backup has not finished; a resumption is scheduled
+0426.274 (1) Opened log file at time: Wed, 28 Oct 2015 19:30:50 +0000 on http://hp-partner-solutions.com
+0426.276 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.15 WP: 4.3.1 PHP: 5.4.42 (Linux p3nlwpweb264.prod.phx3.secureserver.net 2.6.32-531.1.2.lve1.2.54.el6.nfsfixes.x86_64 #1 SMP Wed Apr 2 14:06:52 MST 2014 x86_64) MySQL: 5.5.43 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 13M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0426.278 (1) Free space on disk containing Updraft's temporary directory: 13632163.3 Mb
+0426.283 (1) Backup run: resumption=1, nonce=b7ec6600a03c, begun at=1446060224 (426s ago), job type=backup, previous check-in=125s
+0426.285 (1) Scheduling a resumption (2) after 300 seconds (1446060950) in case this run gets aborted
+0426.300 (1) Checking if we have a zip executable available
+0426.302 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0426.303 (1) Creation of backups of directories: already finished
+0426.307 (1) Saving backup status to database (elements: 8)
+0426.311 (1) Database dump (WordPress DB): Creation was completed already
+0426.514 (1) Saving backup history
+0426.521 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-plugins.zip: plugins: This file has already been successfully uploaded
+0426.523 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-themes.zip: themes: This file has already been successfully uploaded
+0426.525 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-uploads.zip: uploads: This file has already been successfully uploaded
+0426.527 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-others.zip: others: This file has already been successfully uploaded
+0426.528 (1) backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content/updraft/backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz)
+0426.533 (1) Recording as successfully uploaded: backup_2015-10-28-1923_A_WordPress_Site_b7ec6600a03c-db.gz (a73300f1493b10de48be5d42477d27be)
+0426.545 (1) Resume backup (b7ec6600a03c, 1): finish run
+0426.549 (1) There were no more files that needed uploading
+0426.551 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0426.561 (1) No email will be sent - this backup set was empty.
+0426.563 (1) The backup apparently succeeded and is now complete

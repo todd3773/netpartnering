@@ -1,0 +1,292 @@
+0000.001 (0) Opened log file at time: Mon, 09 Nov 2015 06:31:29 +0000 on http://www.hp-partner-solutions.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.15 WP: 4.3.1 PHP: 5.4.42 (Linux p3nlwpweb264.prod.phx3.secureserver.net 2.6.32-531.1.2.lve1.2.54.el6.nfsfixes.x86_64 #1 SMP Wed Apr 2 14:06:52 MST 2014 x86_64) MySQL: 5.5.43 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.6M | 15M) multisite: Y mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 11548521.1 Mb
+0000.011 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.015 (0) Requesting semaphore lock (fd)
+0000.019 (0) Semaphore (fd) was stuck, set lock time to 2015-11-09 06:31:29
+0000.021 (0) Semaphore (fd) reset to 1
+0000.023 (0) Set semaphore last lock (fd) time to 2015-11-09 06:31:29
+0000.025 (0) Semaphore lock (fd) complete
+0000.030 (0) Backup run: resumption=0, nonce=dbf484d8caf0, begun at=1447050689 (0s ago), job type=backup
+0000.033 (0) Scheduling a resumption (1) after 300 seconds (1447050989) in case this run gets aborted
+0000.046 (0) Checking if we have a zip executable available
+0000.049 (0) Testing: /usr/bin/zip
+0000.061 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.064 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.066 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.069 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.070 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.084 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.087 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.093 (0) Working binary zip found: /usr/bin/zip
+0000.098 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.100 (0) Creation of backups of directories: beginning
+0000.108 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0001.069 (0) Total entities for the zip file: 430 directories, 2970 files (0 skipped as non-modified), 41.6 Mb
+0001.115 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0001.162 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0001.210 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0001.292 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0001.339 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0001.343 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 Mb, 2970 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0002.179 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: size is now: 3.80 Mb
+0002.260 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 600 files added (on-disk size: 3930.9 Kb)
+0002.303 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 700 files added (on-disk size: 3930.9 Kb)
+0002.345 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 800 files added (on-disk size: 3930.9 Kb)
+0002.390 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 900 files added (on-disk size: 3930.9 Kb)
+0002.436 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 1000 files added (on-disk size: 3930.9 Kb)
+0002.440 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15 Mb, 2970 files batched, 501 (1002) added so far); re-opening (prior size: 3930.9 Kb)
+0003.814 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: size is now: 8.60 Mb
+0003.865 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 1100 files added (on-disk size: 8800.2 Kb)
+0003.918 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 1200 files added (on-disk size: 8800.2 Kb)
+0003.963 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 1300 files added (on-disk size: 8800.2 Kb)
+0004.009 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 1400 files added (on-disk size: 8800.2 Kb)
+0004.056 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 1500 files added (on-disk size: 8800.2 Kb)
+0004.060 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 Mb, 2970 files batched, 501 (1503) added so far); re-opening (prior size: 8800.2 Kb)
+0004.660 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 1600 files added (on-disk size: 9512.6 Kb)
+0004.705 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 1700 files added (on-disk size: 9512.6 Kb)
+0004.750 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 1800 files added (on-disk size: 9512.6 Kb)
+0004.793 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 1900 files added (on-disk size: 9512.6 Kb)
+0004.835 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 2000 files added (on-disk size: 9512.6 Kb)
+0004.841 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 Mb, 2970 files batched, 501 (2004) added so far); re-opening (prior size: 9512.6 Kb)
+0005.581 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: size is now: 11.90 Mb
+0005.706 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 2100 files added (on-disk size: 12181.2 Kb)
+0005.767 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 2200 files added (on-disk size: 12181.2 Kb)
+0005.818 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 2300 files added (on-disk size: 12181.2 Kb)
+0005.869 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 2400 files added (on-disk size: 12181.2 Kb)
+0005.920 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 2500 files added (on-disk size: 12181.2 Kb)
+0005.925 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 Mb, 2970 files batched, 501 (2505) added so far); re-opening (prior size: 12181.2 Kb)
+0007.006 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: size is now: 14.90 Mb
+0007.119 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 2600 files added (on-disk size: 15279.7 Kb)
+0007.260 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 2700 files added (on-disk size: 15279.7 Kb)
+0007.323 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 2800 files added (on-disk size: 15279.7 Kb)
+0007.383 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip.tmp: 2900 files added (on-disk size: 15279.7 Kb)
+0009.282 (0) Created plugins zip (0) - 17383.8 Kb in 9.2 s (1896.2 Kb/s) (SHA1 checksum: dd73cc467d170f2c3e90b3038435faa835714063)
+0009.290 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0009.379 (0) Total entities for the zip file: 37 directories, 350 files (0 skipped as non-modified), 19.2 Mb
+0009.430 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0009.477 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0009.522 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0010.481 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-themes.zip.tmp: size is now: 5.10 Mb
+0010.621 (0) Created themes zip (0) - 5246.4 Kb in 1.3 s (3958.9 Kb/s) (SHA1 checksum: e65276adf2649278a6bfa034ac517a6e9efcff21)
+0010.627 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0010.629 (0) Looking for candidates to back up in: /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content/uploads
+0010.632 (0) finding files: 2015: adding to list (1)
+0010.635 (0) finding files: et_temp: adding to list (2)
+0010.637 (0) finding files: sites: adding to list (3)
+0010.639 (0) finding files: wpcf7_uploads: adding to list (4)
+0010.642 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0010.733 (0) Total entities for the zip file: 8 directories, 511 files (0 skipped as non-modified), 61.4 Mb
+0010.851 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0010.901 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0010.952 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0010.970 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25.2 Mb, 511 files batched, 328 (328) added so far); re-opening (prior size: 0 Kb)
+0011.723 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-uploads.zip.tmp: size is now: 25.20 Mb
+0011.728 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 17187.2 Kb/s)
+0011.731 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.5038208961487, normalised_time=1.4894768180213, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=105598420)
+0011.764 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-uploads.zip.tmp: 400 files added (on-disk size: 25852.5 Kb)
+0011.806 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-uploads.zip.tmp: 500 files added (on-disk size: 25852.5 Kb)
+0014.581 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-uploads.zip.tmp: size is now: 61.20 Mb
+0016.133 (0) Created uploads zip (0) - 62652.3 Kb in 5.5 s (11422.1 Kb/s) (SHA1 checksum: 551b8a3dcd8bdc6f0d0f4cec94231c46c7ab3e14)
+0016.142 (0) Beginning backup of other directories found in the content directory (index: 0)
+0016.144 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql
+0016.146 (0) Looking for candidates to back up in: /home/content/p3pnexwpnas09_data02/34/2814534/html/wp-content
+0016.148 (0) finding files: uploads: skipping: this is the uploads directory
+0016.150 (0) finding files: updraft: skipping: this is the updraft directory
+0016.152 (0) finding files: object-cache.php: adding to list (1)
+0016.155 (0) finding files: managewp: adding to list (2)
+0016.157 (0) finding files: index.php: adding to list (3)
+0016.159 (0) finding files: plugins: skipping: this is the plugins directory
+0016.162 (0) finding files: mu-plugins: adding to list (4)
+0016.164 (0) finding files: upgrade: skipping: excluded by options
+0016.167 (0) finding files: themes: skipping: this is the themes directory
+0016.170 (0) finding files: languages: adding to list (5)
+0016.214 (0) Total entities for the zip file: 10 directories, 127 files (0 skipped as non-modified), 35.4 Mb
+0016.268 (0) Zip: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-others.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0017.766 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-others.zip.tmp: size is now: 35.10 Mb
+0018.695 (0) Created others zip (0) - 35917.7 Kb in 2.5 s (14251.9 Kb/s) (SHA1 checksum: 10f8a229899c613d51186115a7ee6dd2a9034bfd)
+0018.709 (0) Saving backup status to database (elements: 8)
+0018.716 (0) Beginning creation of database dump (WordPress DB)
+0018.722 (0) Testing: /usr/bin/mysqldump
+0018.781 (0) Binary mysqldump: error (code: 2)
+0018.797 (0) Table wp_kn2ztcjm6p_options: Total expected rows (approximate): 148
+0018.816 (0) Table wp_kn2ztcjm6p_options: Total rows added: 305 in 0.02 seconds
+0018.821 (0) Table wp_kn2ztcjm6p_options: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_options.table.gz - 22.3 Kb)
+0018.828 (0) Table wp_kn2ztcjm6p_users: Total expected rows (approximate): 6
+0018.833 (0) Table wp_kn2ztcjm6p_users: Total rows added: 6 in 0.00 seconds
+0018.836 (0) Table wp_kn2ztcjm6p_users: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_users.table.gz - 1 Kb)
+0018.844 (0) Table wp_kn2ztcjm6p_usermeta: Total expected rows (approximate): 121
+0018.854 (0) Table wp_kn2ztcjm6p_usermeta: Total rows added: 121 in 0.01 seconds
+0018.858 (0) Table wp_kn2ztcjm6p_usermeta: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_usermeta.table.gz - 2.9 Kb)
+0018.870 (0) Table wp_kn2ztcjm6p_blog_versions: Total expected rows (approximate): 0
+0018.875 (0) Table wp_kn2ztcjm6p_blog_versions: Total rows added: 0 in 0.00 seconds
+0018.879 (0) Table wp_kn2ztcjm6p_blog_versions: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_blog_versions.table.gz - 0.3 Kb)
+0018.888 (0) Table wp_kn2ztcjm6p_blogs: Total expected rows (approximate): 1
+0018.894 (0) Table wp_kn2ztcjm6p_blogs: Total rows added: 1 in 0.00 seconds
+0018.899 (0) Table wp_kn2ztcjm6p_blogs: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_blogs.table.gz - 0.5 Kb)
+0018.913 (0) Table wp_kn2ztcjm6p_commentmeta: Total expected rows (approximate): 0
+0018.917 (0) Table wp_kn2ztcjm6p_commentmeta: Total rows added: 0 in 0.00 seconds
+0018.920 (0) Table wp_kn2ztcjm6p_commentmeta: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_commentmeta.table.gz - 0.4 Kb)
+0018.928 (0) Table wp_kn2ztcjm6p_comments: Total expected rows (approximate): 0
+0018.933 (0) Table wp_kn2ztcjm6p_comments: Total rows added: 0 in 0.00 seconds
+0018.936 (0) Table wp_kn2ztcjm6p_comments: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_comments.table.gz - 0.5 Kb)
+0018.947 (0) Table wp_kn2ztcjm6p_links: Total expected rows (approximate): 0
+0018.952 (0) Table wp_kn2ztcjm6p_links: Total rows added: 0 in 0.00 seconds
+0018.955 (0) Table wp_kn2ztcjm6p_links: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_links.table.gz - 0.5 Kb)
+0018.964 (0) Table wp_kn2ztcjm6p_postmeta: Total expected rows (approximate): 732
+0018.994 (0) Table wp_kn2ztcjm6p_postmeta: Total rows added: 732 in 0.03 seconds
+0018.998 (0) Table wp_kn2ztcjm6p_postmeta: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_postmeta.table.gz - 21.5 Kb)
+0019.006 (0) Table wp_kn2ztcjm6p_posts: Total expected rows (approximate): 1292
+0019.520 (0) Table wp_kn2ztcjm6p_posts: Total rows added: 1292 in 0.51 seconds
+0019.535 (0) Table wp_kn2ztcjm6p_posts: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_posts.table.gz - 534.3 Kb)
+0019.549 (0) Table wp_kn2ztcjm6p_registration_log: Total expected rows (approximate): 1
+0019.553 (0) Table wp_kn2ztcjm6p_registration_log: Total rows added: 1 in 0.00 seconds
+0019.557 (0) Table wp_kn2ztcjm6p_registration_log: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_registration_log.table.gz - 0.5 Kb)
+0019.582 (0) Table wp_kn2ztcjm6p_signups: Total expected rows (approximate): 0
+0019.587 (0) Table wp_kn2ztcjm6p_signups: Total rows added: 0 in 0.00 seconds
+0019.590 (0) Table wp_kn2ztcjm6p_signups: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_signups.table.gz - 0.5 Kb)
+0019.599 (0) Table wp_kn2ztcjm6p_site: Total expected rows (approximate): 1
+0019.604 (0) Table wp_kn2ztcjm6p_site: Total rows added: 1 in 0.00 seconds
+0019.606 (0) Table wp_kn2ztcjm6p_site: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_site.table.gz - 0.4 Kb)
+0019.614 (0) Table wp_kn2ztcjm6p_sitemeta: Total expected rows (approximate): 39
+0019.619 (0) Table wp_kn2ztcjm6p_sitemeta: Total rows added: 38 in 0.00 seconds
+0019.622 (0) Table wp_kn2ztcjm6p_sitemeta: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_sitemeta.table.gz - 1.6 Kb)
+0019.629 (0) Table wp_kn2ztcjm6p_term_relationships: Total expected rows (approximate): 140
+0019.634 (0) Table wp_kn2ztcjm6p_term_relationships: Total rows added: 140 in 0.00 seconds
+0019.637 (0) Table wp_kn2ztcjm6p_term_relationships: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_term_relationships.table.gz - 0.7 Kb)
+0019.644 (0) Table wp_kn2ztcjm6p_term_taxonomy: Total expected rows (approximate): 13
+0019.649 (0) Table wp_kn2ztcjm6p_term_taxonomy: Total rows added: 13 in 0.00 seconds
+0019.653 (0) Table wp_kn2ztcjm6p_term_taxonomy: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_term_taxonomy.table.gz - 0.6 Kb)
+0019.661 (0) Table wp_kn2ztcjm6p_terms: Total expected rows (approximate): 13
+0019.667 (0) Table wp_kn2ztcjm6p_terms: Total rows added: 13 in 0.00 seconds
+0019.670 (0) Table wp_kn2ztcjm6p_terms: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_terms.table.gz - 0.6 Kb)
+0019.680 (0) Table wp_kn2ztcjm6p_ap_appointments: Total expected rows (approximate): 0
+0019.684 (0) Table wp_kn2ztcjm6p_ap_appointments: Total rows added: 0 in 0.00 seconds
+0019.687 (0) Table wp_kn2ztcjm6p_ap_appointments: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_ap_appointments.table.gz - 0.4 Kb)
+0019.697 (0) Table wp_kn2ztcjm6p_ap_events: Total expected rows (approximate): 0
+0019.702 (0) Table wp_kn2ztcjm6p_ap_events: Total rows added: 0 in 0.00 seconds
+0019.705 (0) Table wp_kn2ztcjm6p_ap_events: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_ap_events.table.gz - 0.3 Kb)
+0019.716 (0) Table wp_kn2ztcjm6p_ap_service_category: Total expected rows (approximate): 1
+0019.721 (0) Table wp_kn2ztcjm6p_ap_service_category: Total rows added: 1 in 0.00 seconds
+0019.725 (0) Table wp_kn2ztcjm6p_ap_service_category: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_ap_service_category.table.gz - 0.3 Kb)
+0019.738 (0) Table wp_kn2ztcjm6p_ap_services: Total expected rows (approximate): 1
+0019.742 (0) Table wp_kn2ztcjm6p_ap_services: Total rows added: 1 in 0.00 seconds
+0019.745 (0) Table wp_kn2ztcjm6p_ap_services: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_ap_services.table.gz - 0.5 Kb)
+0019.756 (0) Table wp_kn2ztcjm6p_cf7dbplugin_st: Total expected rows (approximate): 28
+0019.761 (0) Table wp_kn2ztcjm6p_cf7dbplugin_st: Total rows added: 28 in 0.00 seconds
+0019.765 (0) Table wp_kn2ztcjm6p_cf7dbplugin_st: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cf7dbplugin_st.table.gz - 0.5 Kb)
+0019.777 (0) Table wp_kn2ztcjm6p_cf7dbplugin_submits: Total expected rows (approximate): 632
+0020.106 (0) Table wp_kn2ztcjm6p_cf7dbplugin_submits: Total rows added: 632 in 0.33 seconds
+0020.151 (0) Table wp_kn2ztcjm6p_cf7dbplugin_submits: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cf7dbplugin_submits.table.gz - 3913.1 Kb)
+0020.184 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars: Total expected rows (approximate): 1
+0020.196 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars: Total rows added: 1 in 0.01 seconds
+0020.201 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cpabc_appointment_calendars.table.gz - 1.2 Kb)
+0020.214 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars_data: Total expected rows (approximate): 0
+0020.228 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars_data: Total rows added: 0 in 0.01 seconds
+0020.234 (0) Table wp_kn2ztcjm6p_cpabc_appointment_calendars_data: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cpabc_appointment_calendars_data.table.gz - 0.4 Kb)
+0020.247 (0) Table wp_kn2ztcjm6p_cpabc_appointments: Total expected rows (approximate): 0
+0020.254 (0) Table wp_kn2ztcjm6p_cpabc_appointments: Total rows added: 0 in 0.00 seconds
+0020.258 (0) Table wp_kn2ztcjm6p_cpabc_appointments: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cpabc_appointments.table.gz - 0.4 Kb)
+0020.269 (0) Table wp_kn2ztcjm6p_cpabc_appointments_discount_codes: Total expected rows (approximate): 0
+0020.274 (0) Table wp_kn2ztcjm6p_cpabc_appointments_discount_codes: Total rows added: 0 in 0.00 seconds
+0020.277 (0) Table wp_kn2ztcjm6p_cpabc_appointments_discount_codes: finishing file (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cpabc_appointments_discount_codes.table.gz - 0.4 Kb)
+0020.285 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_options.table.gz (1/27): adding to final database dump
+0020.294 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_users.table.gz (2/27): adding to final database dump
+0020.299 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_usermeta.table.gz (3/27): adding to final database dump
+0020.304 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_blog_versions.table.gz (4/27): adding to final database dump
+0020.308 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_blogs.table.gz (5/27): adding to final database dump
+0020.312 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_commentmeta.table.gz (6/27): adding to final database dump
+0020.317 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_comments.table.gz (7/27): adding to final database dump
+0020.322 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_links.table.gz (8/27): adding to final database dump
+0020.325 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_postmeta.table.gz (9/27): adding to final database dump
+0020.335 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_posts.table.gz (10/27): adding to final database dump
+0020.588 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_registration_log.table.gz (11/27): adding to final database dump
+0020.591 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_signups.table.gz (12/27): adding to final database dump
+0020.595 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_site.table.gz (13/27): adding to final database dump
+0020.599 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_sitemeta.table.gz (14/27): adding to final database dump
+0020.603 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_term_relationships.table.gz (15/27): adding to final database dump
+0020.607 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_term_taxonomy.table.gz (16/27): adding to final database dump
+0020.611 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_terms.table.gz (17/27): adding to final database dump
+0020.615 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_ap_appointments.table.gz (18/27): adding to final database dump
+0020.618 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_ap_events.table.gz (19/27): adding to final database dump
+0020.621 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_ap_service_category.table.gz (20/27): adding to final database dump
+0020.624 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_ap_services.table.gz (21/27): adding to final database dump
+0020.628 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cf7dbplugin_st.table.gz (22/27): adding to final database dump
+0020.632 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cf7dbplugin_submits.table.gz (23/27): adding to final database dump
+0020.943 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cpabc_appointment_calendars.table.gz (24/27): adding to final database dump
+0020.948 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cpabc_appointment_calendars_data.table.gz (25/27): adding to final database dump
+0020.952 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cpabc_appointments.table.gz (26/27): adding to final database dump
+0020.957 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db-table-wp_kn2ztcjm6p_cpabc_appointments_discount_codes.table.gz (27/27): adding to final database dump
+0021.000 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db.gz: finished writing out complete database file (4480 Kb)
+0021.152 (0) Total database tables backed up: 27 (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db.gz, size: 4608764, checksum (SHA1): 9a8bcbc3cc2f41ca75d10e87e4e0412704d2efef)
+0021.156 (0) Saving backup history
+0021.167 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0021.170 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0021.173 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0021.175 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0021.179 (0) backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0021.185 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0021.190 (0) Cloud backup selection (1/1): dropbox (last)
+0021.192 (0) Beginning dispatch of backup to remote (dropbox)
+0021.194 (0) Dropbox: begin cloud upload
+0021.201 (0) Dropbox: access gained
+0021.405 (0) Dropbox quota usage: normal=110.9 Mb, shared=0 Mb, total=2048 Mb, available=1937.1 Mb
+0021.409 (0) Dropbox: Attempt to upload: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip to: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip
+0023.253 (0) Dropbox chunked upload: 5.9 % uploaded (mAh-nykMCDi-fl5nepbuew, 1048576)
+0025.066 (0) Dropbox chunked upload: 11.8 % uploaded (mAh-nykMCDi-fl5nepbuew, 2097152)
+0027.029 (0) Dropbox chunked upload: 17.7 % uploaded (mAh-nykMCDi-fl5nepbuew, 3145728)
+0030.872 (0) Dropbox chunked upload: 23.6 % uploaded (mAh-nykMCDi-fl5nepbuew, 4194304)
+0032.504 (0) Dropbox chunked upload: 29.5 % uploaded (mAh-nykMCDi-fl5nepbuew, 5242880)
+0034.516 (0) Dropbox chunked upload: 35.3 % uploaded (mAh-nykMCDi-fl5nepbuew, 6291456)
+0036.584 (0) Dropbox chunked upload: 41.2 % uploaded (mAh-nykMCDi-fl5nepbuew, 7340032)
+0038.976 (0) Dropbox chunked upload: 47.1 % uploaded (mAh-nykMCDi-fl5nepbuew, 8388608)
+0040.697 (0) Dropbox chunked upload: 53 % uploaded (mAh-nykMCDi-fl5nepbuew, 9437184)
+0042.928 (0) Dropbox chunked upload: 58.9 % uploaded (mAh-nykMCDi-fl5nepbuew, 10485760)
+0045.351 (0) Dropbox chunked upload: 64.8 % uploaded (mAh-nykMCDi-fl5nepbuew, 11534336)
+0047.858 (0) Dropbox chunked upload: 70.7 % uploaded (mAh-nykMCDi-fl5nepbuew, 12582912)
+0049.556 (0) Dropbox chunked upload: 76.6 % uploaded (mAh-nykMCDi-fl5nepbuew, 13631488)
+0051.447 (0) Dropbox chunked upload: 82.5 % uploaded (mAh-nykMCDi-fl5nepbuew, 14680064)
+0053.454 (0) Dropbox chunked upload: 88.4 % uploaded (mAh-nykMCDi-fl5nepbuew, 15728640)
+0055.996 (0) Dropbox chunked upload: 94.2 % uploaded (mAh-nykMCDi-fl5nepbuew, 16777216)
+0057.771 (0) Dropbox chunked upload: 100 % uploaded (mAh-nykMCDi-fl5nepbuew, 17801019)
+0059.078 (0) Recording as successfully uploaded: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip (3bb4a80d380bfc1a15c2c09473ca9242)
+0059.085 (0) Deleting local file: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip: OK
+0059.089 (0) Dropbox: File upload success (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-plugins.zip): 17383 Kb in 37s (461 Kb/s)
+0059.333 (0) Dropbox quota usage: normal=127.8 Mb, shared=0 Mb, total=2048 Mb, available=1920.2 Mb
+0059.336 (0) Dropbox: Attempt to upload: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-themes.zip to: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-themes.zip
+0060.984 (0) Dropbox chunked upload: 19.5 % uploaded (rq4E9rCAa_bGq2gqkj2pNg, 1048576)
+0062.789 (0) Dropbox chunked upload: 39 % uploaded (rq4E9rCAa_bGq2gqkj2pNg, 2097152)
+0064.780 (0) Dropbox chunked upload: 58.6 % uploaded (rq4E9rCAa_bGq2gqkj2pNg, 3145728)
+0067.404 (0) Dropbox chunked upload: 78.1 % uploaded (rq4E9rCAa_bGq2gqkj2pNg, 4194304)
+0069.081 (0) Dropbox chunked upload: 97.6 % uploaded (rq4E9rCAa_bGq2gqkj2pNg, 5242880)
+0070.289 (0) Dropbox chunked upload: 100 % uploaded (rq4E9rCAa_bGq2gqkj2pNg, 5372329)
+0071.702 (0) Recording as successfully uploaded: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-themes.zip (77e8e399e2b8dc16f1446b474e55b325)
+0071.711 (0) Deleting local file: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-themes.zip: OK
+0071.715 (0) Dropbox: File upload success (backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-themes.zip): 5246 Kb in 12s (423 Kb/s)
+0071.904 (0) Dropbox quota usage: normal=133 Mb, shared=0 Mb, total=2048 Mb, available=1915 Mb
+0071.908 (0) Dropbox: Attempt to upload: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-uploads.zip to: backup_2015-11-08-2331_NetPartnering_dbf484d8caf0-uploads.zip
+0073.599 (0) Dropbox chunked upload: 1.6 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 1048576)
+0075.469 (0) Dropbox chunked upload: 3.3 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 2097152)
+0078.174 (0) Dropbox chunked upload: 4.9 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 3145728)
+0080.626 (0) Dropbox chunked upload: 6.5 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 4194304)
+0082.448 (0) Dropbox chunked upload: 8.2 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 5242880)
+0084.370 (0) Dropbox chunked upload: 9.8 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 6291456)
+0086.434 (0) Dropbox chunked upload: 11.4 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 7340032)
+0088.862 (0) Dropbox chunked upload: 13.1 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 8388608)
+0090.571 (0) Dropbox chunked upload: 14.7 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 9437184)
+0092.596 (0) Dropbox chunked upload: 16.3 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 10485760)
+0094.524 (0) Dropbox chunked upload: 18 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 11534336)
+0097.011 (0) Dropbox chunked upload: 19.6 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 12582912)
+0098.722 (0) Dropbox chunked upload: 21.2 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 13631488)
+0100.926 (0) Dropbox chunked upload: 22.9 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 14680064)
+0102.980 (0) Dropbox chunked upload: 24.5 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 15728640)
+0106.334 (0) Dropbox chunked upload: 26.2 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 16777216)
+0108.087 (0) Dropbox chunked upload: 27.8 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 17825792)
+0110.060 (0) Dropbox chunked upload: 29.4 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 18874368)
+0112.150 (0) Dropbox chunked upload: 31.1 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 19922944)
+0114.692 (0) Dropbox chunked upload: 32.7 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 20971520)
+0116.324 (0) Dropbox chunked upload: 34.3 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 22020096)
+0118.043 (0) Dropbox chunked upload: 36 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 23068672)
+0120.652 (0) Dropbox chunked upload: 37.6 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 24117248)
+0123.241 (0) Dropbox chunked upload: 39.2 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 25165824)
+0124.818 (0) Dropbox chunked upload: 40.9 % uploaded (CIaZiQ8kq1_DV5AkD1N1hQ, 26214400)
